@@ -1,14 +1,7 @@
-Vue로 구현하여 외부 프로그램을 통해 midi파일을 악보로 변환
+MidiToMusicScore is a program that takes MIDI files and converts them into sheet music.
+The main purpose of this project is to visualize digital music data (MIDI) in the form of human-readable sheet music and to support downloading it
 
+Uploading and parsing MIDI files
 
-웹 상에 악보를 PDF로 보여주고 다운로드가 가능함
-
-
-MuseScore4을 설치 후 설치된 경로를 입력해야함
-
-
-backend/midipiano/miditoPdf.js
-
-
-
-const musescorePath = 'C:\\Users\\user\\bin\\MuseScore4.exe'; // 경로 확인
+"This project is a full-stack web application built with Vue 3 (frontend) and Node.js with Express (backend). 
+The frontend communicates with the backend through RESTful APIs using Axios, enabling file uploads and MIDI-to-PDF conversion."
