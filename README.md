@@ -1,7 +1,6 @@
-MidiToMusicScore is a program that takes MIDI files and converts them into sheet music.
-The main purpose of this project is to visualize digital music data (MIDI) in the form of human-readable sheet music and to support downloading it
+MidiToMusicScore is a web application that takes MIDI files and converts them into sheet music.
+The main goal of this project is to visualize digital music data (MIDI) in a human-readable form and allow users to download the generated sheet music as a PDF.
 
-Uploading and parsing MIDI files
+It supports uploading and parsing MIDI files, and displays the converted result.
 
-This project is a full-stack web application built with Vue 3 (frontend) and Node.js with Express (backend). 
-The frontend communicates with the backend through RESTful APIs using Axios, enabling file uploads and MIDI-to-PDF conversion.
+This is a full-stack application built with Vue 3 on the frontend and Node.js with Express on the backend. The frontend communicates with the backend through RESTful APIs using Axios, enabling file uploads and MIDI-to-PDF conversion.
